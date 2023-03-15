@@ -1,0 +1,37 @@
+.dashboard-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+/********************PROGRESSION********************/
+/* Définit la taille de police et la marge de la liste principale */
+ul.campaign-progress {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Définit la taille de police et la marge des éléments de niveau supérieur */
+ul.campaign-progress > li {
+  font-size: 6px;
+  margin-bottom: 5px;
+}
+
+/* Définit la taille de police et la marge des éléments de niveau inférieur */
+ul.campaign-progress > li ul > li {
+  font-size: 10px;
+  margin-bottom: 2px;
+}

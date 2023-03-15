@@ -1,0 +1,15 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
